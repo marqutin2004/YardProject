@@ -1,0 +1,19 @@
+.botones {
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border-width: 1px;
+    border-color: black;
+}
+
+#quantityNeeded {
+    display: none;
+}
+#areaCovered {
+    display: none;
+}
+
+.checkbox {
+    display: none;
+}
