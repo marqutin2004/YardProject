@@ -1,10 +1,43 @@
+body {
+    background-color: rgb(19, 13, 12);
+}
+
+.text {
+    color: rgb(190, 190, 190);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-stretch: expanded;
+}
+
 .botones {
     width: auto;
-    height: 30px;
+    height: 40px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: rgba(71, 187, 202, 0.788);
+    color: rgb(255, 255, 255);
     border-width: 1px;
     border-color: black;
+    font-size: 15px;
+}
+.housing {
+    display: flex;
+    flex: auto;
+}
+
+.image {
+    width: 50%;
+    height: 990px;
+}
+
+.shapeButtons {
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(64, 198, 216, 0.788);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: black;
+    font-size: 15px;
+    width: 100px;
 }
 
 #quantityNeeded {
@@ -16,4 +49,11 @@
 
 .checkbox {
     display: none;
+}
+
+input {
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: aqua;
 }

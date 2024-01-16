@@ -38,6 +38,22 @@ return circleFT
 };
 /*--------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------*/
+$(document).ready(function () {
+  // Attach a click event handler to the button
+  $("#Square").click(function () {
+      // Get the value entered in the text box using jQuery
+      var inputValue = $("#textboxSquare").val();
+
+      // Display or use the value as needed
+      console.log("Input value:", inputValue);
+
+      // You can store it in a variable for further use
+      var storedValue = inputValue;
+      console.log("Stored value:", storedValue);
+  });
+});
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
 /* THIS IS THE FUCNTION THAT MAKES THE BUTTONS APPEAR ONCE YOU PRESS TEH INITIAL QUANITYT OF MATERIALS NEEDED FOR A CERTAIN AREA BUTTON */
 $(document).ready(function(){
     $('#quantityNeededButton').click(function(){
@@ -79,4 +95,5 @@ $(document).ready(function() {
       $('.checkbox').hide();
     });
   });
-  
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
